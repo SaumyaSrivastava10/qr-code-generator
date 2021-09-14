@@ -3,6 +3,6 @@ from PIL import Image
 
 
 
-q=pyqrcode.create("http://www.google.com")
+q=pyqrcode.create(input("Enter a link or text:  "))
 
 q.png("qrcode.png",scale=8)
